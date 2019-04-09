@@ -96,6 +96,31 @@ html, body, header, #intro{
 ****************************/
 
 
+/*********about-us**********/
+/*******end about-us*******/
+
+
+/********our-services******/
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgb(25,25,25);
+    -moz-box-shadow: -1px 9px 40px -12px rgb(25,25,25);
+    -box-shadow: -1px 9px 40px -12px rgb(25,25,25);
+}
+.col-lg-4{
+    padding: 1%;
+}
+.card{
+    height: 32em;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+}
+/******end our-services*****/
+
+
+
 
 .map-container{
     overflow:hidden;

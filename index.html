@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Wedding Decor Loren</title>
+    <link href="img/index/icon/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Bootstrap core CSS -->
@@ -169,20 +170,20 @@
         <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                 <h6 class="text-uppercase font-weight-bold"><strong>Loren</strong></h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 35px">
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 45px">
                 <p>Студія весільного декору та флористики м. Івано - Франківськ</p>
                 <p class="footer-copyright">Всі права захищено &copy;2019</p>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold"><strong>Послуги</strong></h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px">
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 70px">
                 <p><a href="src/our-services.html">Наші послуги</a></p>
                 <p><a href="src/adout-us.html">Про нас</a></p>
                 <p><a href="src/galery.html">Галерея</a></p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3">
                 <h6 class="text-uppercase font-weight-bold"><strong>Контакти</strong></h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px">
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px">
                 <p><i class="fas fa-phone mr-3"></i>095 02 35 779</p>
                 <p><i class="fab fa-viber mr-3"></i>097 23 49 231</p>
                 <p><i class="fas fa-envelope mr-3"></i>roma@br.if.ua</p>
@@ -278,33 +279,5 @@
     }
     scrolltotop.init()
 </script>
-<!--google map-->
-<script type="text/javascript">
-    function regular_map() {
-        var var_location = new google.maps.LatLng(48.9118241, 24.6820238);
-
-        var var_mapoptions = {
-            center: var_location,
-            zoom: 14
-        };
-
-        var var_map = new google.maps.Map(document.getElementById("map-container-google-1"),
-            var_mapoptions);
-
-        var var_marker = new google.maps.Marker({
-            position: var_location,
-            map: var_map,
-            title: "Ivano - Frankivsk"
-        });
-
-    }
-
-    google.maps.evnt.addDomListenet = function (window, load, regular_map) {
-        regular_map;
-    };
-    //Initialize map
-    google.maps.evnt.addDomListenet(window, 'load', regular_map);
-</script>
 </body>
-
 </html>
