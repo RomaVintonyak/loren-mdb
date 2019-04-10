@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 /*style for index page*/
 html, body, header, #intro{
     height: 100%;
@@ -92,9 +93,7 @@ html, body, header, #intro{
 .smoke ul li:nth-child(5) {
     animation-delay: 1.6s;
 }
-/*****end index page********
-****************************/
-
+/*****end index page********/
 
 /*********about-us**********/
 /*******end about-us*******/
@@ -118,20 +117,108 @@ html, body, header, #intro{
     height: 300px;
 }
 /******end our-services*****/
-
-
-
-
-.map-container{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+/******galery**************/
+.photo img {
+    border: 4px solid #eee;
 }
-.map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.photo a {
+    display: block;
+    position: relative;
 }
+.photo a:hover {
+    opacity: 0.6;
+}
+.photo a:after {
+    content: '';
+    background: transparent url(../img/galery/eye-icon.png) no-repeat center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+.photo:hover > a:after {
+    visibility: visible;
+}
+/********end galery*******/
+/********contact*********/
+form > div > input:valid {
+    border-color: green; !important;
+}
+form > div > input:invalid {
+    border-color: #ffbfb8; !important;
+}
+
+
+
+
+/* begin Scroll Down Button */
+button.scroll_down {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+button.scroll_down:before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: scroll_down_btn-animation 2s infinite;
+    animation: scroll_down_btn-animation 2s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes scroll_down_btn-animation {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes scroll_down_btn-animation {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* end Scroll Down Button */

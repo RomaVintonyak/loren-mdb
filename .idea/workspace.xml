@@ -2,74 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a533b0-fd38-4b01-a562-a5bfb308cce4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/big/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/arka/small/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/eye-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/big/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/foto/small/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/big/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/kvity/small/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/big/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/poligraphy/small/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/big/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/galery/pz/small/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lightbox-plus-jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adout-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/adout-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/galery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/galery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/our-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/our-services.html" afterDir="false" />
     </list>
@@ -83,20 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+            <state relative-caret-position="-868">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galery.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/galery.html">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +53,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>text</find>
+      <find>h</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,13 +62,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/adout-us.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/src/our-services.html" />
         <option value="$PROJECT_DIR$/src/galery.html" />
+        <option value="$PROJECT_DIR$/src/our-services.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/contact.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -167,25 +108,7 @@
             <path>
               <item name="portFolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portFolio" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portFolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portFolio" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="galery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portFolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portFolio" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="galery" type="462c0819:PsiDirectoryNode" />
-              <item name="pz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portFolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portFolio" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portFolio" type="b2602c69:ProjectViewProjectNode" />
@@ -196,9 +119,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,12 +224,14 @@
       <workItem from="1554744271575" duration="5700000" />
       <workItem from="1554799658607" duration="278000" />
       <workItem from="1554807622254" duration="3563000" />
-      <workItem from="1554812906666" duration="11308000" />
+      <workItem from="1554812906666" duration="11741000" />
+      <workItem from="1554883838620" duration="103000" />
+      <workItem from="1554902749557" duration="11637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66073000" />
+    <option name="totallyTimeSpent" value="78246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,6 +244,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905295" />
@@ -328,13 +254,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.12680578" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2375602" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -342,8 +268,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -359,16 +285,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/galery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/galery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/adout-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2482">
           <caret line="146" column="66" lean-forward="true" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,60 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="185" column="97" selection-start-line="185" selection-start-column="97" selection-end-line="185" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adout-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="310" column="9" lean-forward="true" selection-start-line="236" selection-end-line="310" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="395" selection-start-line="395" selection-end-line="395" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/our-services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="218" column="16" selection-start-line="218" selection-start-column="16" selection-end-line="218" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/galery/pz/small/2.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -615,10 +512,58 @@
     <entry file="file://$PROJECT_DIR$/js/lightbox-plus-jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="132" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/our-services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/galery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="6494">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adout-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="310" column="9" lean-forward="true" selection-start-line="233" selection-end-line="310" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
