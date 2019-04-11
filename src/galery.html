@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords"
+          content="Wedding, Decor, Loren, Agency, Весільна флористика, оформлення, банкетних задів, Оформлення весіль Івано - Франківськ, область"/>
+    <meta name="description"
+          content="Весільна агенція Loren Decor Івано - Франківськ Оформлення бенкетних залів Весільна Флористика"/>
+    <meta http-equiv="content-language" content="ru">
     <title>Галерея</title>
     <link href="../img/index/icon/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     <!-- Font Awesome -->
@@ -17,6 +22,8 @@
     <link href="../css/style.css" rel="stylesheet">
     <!--lightbob css-->
     <link href="../css/lightbox.min.css" rel="stylesheet">
+    <!--acces css-->
+    <link href="../css/access.css" rel="stylesheet">
 </head>
 <body>
 <!--NAV MENU-->
@@ -44,7 +51,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav nav-flex-icons">
-                    <li class="nav-item"><a href="mailto:roma@br.if.ua" class="nav-link waves-effect waves-light"><i
+                    <li class="nav-item"><a href="mailto:loren.decor@ukr.net" class="nav-link waves-effect waves-light"><i
                             class="fas fa-envelope"></i></a>
                     </li>
                     <li class="nav-item"><a href="https://www.facebook.com/oksanavolodynyrivna?ref=bookmarks"
@@ -64,11 +71,13 @@
             <div class="container-fluid d-flex align-items-center justify-content-center h-100">
                 <div class="row d-flex justify-content-center text-center">
                     <div class="col-md-10">
-                        <h2 class="display-4 font-weight-bold white-text pt-2 mb-1">
+                        <h2 class="display-4 unic-font white-text pt-2 mb-1">
                             Wedding Decor Loren
                         </h2>
                         <hr class="hr-light">
                         <h3 class="white-text my-4">Наші роботи</h3>
+                        <button type="button" class="scroll_down waves-effect" id="scroll_down"><i
+                                class="fas fa-long-arrow-alt-down grey-text"></i></button>
                     </div>
                 </div>
             </div>
@@ -403,13 +412,13 @@
         <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                 <h6 class="text-uppercase font-weight-bold"><strong>Loren</strong></h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 45px">
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 48px">
                 <p>Студія весільного декору та флористики м. Івано - Франківськ</p>
                 <p class="footer-copyright">Всі права захищено &copy;2019</p>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase font-weight-bold"><strong>Послуги</strong></h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 70px">
+                <h6 class="text-uppercase font-weight-bold"><strong>links</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 45px">
                 <p><a href="../src/our-services.html">Наші послуги</a></p>
                 <p><a href="../src/adout-us.html">Про нас</a></p>
                 <p><a href="../src/galery.html">Галерея</a></p>
@@ -419,7 +428,7 @@
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px">
                 <p><i class="fas fa-phone mr-3"></i>095 02 35 779</p>
                 <p><i class="fab fa-viber mr-3"></i>097 23 49 231</p>
-                <p><i class="fas fa-envelope mr-3"></i>roma@br.if.ua</p>
+                <p><i class="fas fa-envelope mr-3"></i>loren.decor@ukr.net</p>
             </div>
         </div>
     </div>
@@ -435,9 +444,33 @@
 <script type="text/javascript" src="../js/mdb.min.js"></script>
 <!--lightbox-->
 <script src="../js/lightbox-plus-jquery.min.js"></script>
+<!--conect ases js file-->
+<script type="text/javascript" src="../js/access.js"></script>
 <!--init wow animations-->
 <script type="text/javascript">
     new WOW().init();
+</script>
+<!--scrol down-->
+<script type="text/javascript">
+    (function () {
+        'use strict';
+        var btnScrollDown = document.querySelector('#scroll_down');
+
+        function scrollDown() {
+            var windowCoords = document.documentElement.clientHeight;
+            (function scroll() {
+                if (window.pageYOffset < windowCoords) {
+                    window.scrollBy(0, 6);
+                    setTimeout(scroll, 2);
+                }
+                if (window.pageYOffset > windowCoords) {
+                    window.scrollTo(0, windowCoords);
+                }
+            })();
+        }
+
+        btnScrollDown.addEventListener('click', scrollDown);
+    })();
 </script>
 <!--Scroll script-->
 <script type="text/javascript">

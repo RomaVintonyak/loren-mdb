@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+*{
+    font-family: Roboto, sans-serif;
+}
+.unic-font{
+    font-family: Releway, sans-serif;
+}
 /*style for index page*/
 html, body, header, #intro{
     height: 100%;
 }
 #intro{
-    background: url("../img/index/bg.jpeg") no-repeat center center fixed;
+    background: url("../img/index/bg2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -143,17 +149,6 @@ html, body, header, #intro{
     visibility: visible;
 }
 /********end galery*******/
-/********contact*********/
-form > div > input:valid {
-    border-color: green; !important;
-}
-form > div > input:invalid {
-    border-color: #ffbfb8; !important;
-}
-
-
-
-
 /* begin Scroll Down Button */
 button.scroll_down {
     position: absolute;
@@ -161,22 +156,22 @@ button.scroll_down {
     margin-right: auto;
     left: 0;
     right: 0;
-    height: 50px;
-    width: 30px;
+    height: 45px;
+    width: 25px;
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 6px;
+    border: 1px solid white;
+    border-radius: 2px;
     cursor: pointer;
     outline: none;
 }
 
 button.scroll_down:before {
     position: absolute;
-    top: 10px;
+    top: 8px;
     left: 50%;
     content: '';
-    width: 6px;
-    height: 6px;
+    width: 7px;
+    height: 7px;
     margin-left: -3px;
     background-color: #fff;
     border-radius: 100%;
@@ -220,5 +215,4 @@ button.scroll_down:before {
         opacity: 0;
     }
 }
-
 /* end Scroll Down Button */
