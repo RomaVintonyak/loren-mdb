@@ -8,7 +8,7 @@ function disableEnterKey(e) {
         if (window.event) key = window.event.keyCode; else
             key = e.which;
         if (key == 97 || key == 65 || key == 67 || key == 99 || key == 88 || key == 120 || key == 26 || key == 85 || key == 83 || key == 43) {
-            show_wpcp_message('РџСЂРѕСЃРјРѕС‚СЂ РёСЃС…РѕРґРЅРѕРіРѕ РєРѕРґР° Рё РєРѕРїРёСЂРѕРІР°РЅРёРµ РєРѕРЅС‚РµРЅС‚Р° Р·Р°РїСЂРµС‰РµРЅС‹!');
+            show_wpcp_message('Копіювання метеріалів забороненно');
             return false;
         } else
             return true;
