@@ -21,6 +21,9 @@ html, body, header, #intro{
     .navbar:not(.top-nav-collapse){
         background: #717171;
     }
+    .padding{
+        padding: 0px 20px 0px 20px;
+    }
 }
 .info-block img{
    width: 20%;
