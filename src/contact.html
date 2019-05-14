@@ -97,7 +97,7 @@
                         </div>
                         <div class="md-form">
                             <i class="fas fa-envelope prefix grey-text"></i>
-                            <input type="email" id="mail" class="form-control form-control-sm" required>
+                            <input type="email" id="mail" pattern="/^[a-zA-Z0-9.!#$%&*+/=?^_'{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" class="form-control form-control-sm" required>
                             <label for="mail">Ваш email</label>
                         </div>
                         <div class="md-form ">
@@ -121,6 +121,7 @@
                             <button id="sendmail" type="button" class="btn btn-outline-elegant waves-effect waves-float">Відправити<i
                                     class="fas fa-paper-plane ml-2"></i></button>
                         </div>
+                        <div id="erorMesag" class="red-text"></div>
                     </form>
                 </div>
                 <div class="col-lg-6 col-md-12 p-5 wow bounceInRight">
