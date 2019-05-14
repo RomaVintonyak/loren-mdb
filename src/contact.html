@@ -89,27 +89,27 @@
                 Вами</h4>
             <div class="row">
                 <div class="col-lg-6 col-md-12 wow bounceInLeft">
-                    <form class="p-4">
+                    <form class="p-4" id="feedback">
                         <div class="md-form">
                             <i class="fas fa-user prefix grey-text"></i>
-                            <input type="text" id="form3" class="form-control form-control-sm" required>
-                            <label for="form3">Ваше ім'я</label>
+                            <input type="text" id="name" class="form-control form-control-sm" required>
+                            <label for="name">Ваше ім'я</label>
                         </div>
                         <div class="md-form">
                             <i class="fas fa-envelope prefix grey-text"></i>
-                            <input type="email" id="form2" class="form-control form-control-sm" required>
-                            <label for="form2">Ваш email</label>
+                            <input type="email" id="mail" class="form-control form-control-sm" required>
+                            <label for="mail">Ваш email</label>
                         </div>
                         <div class="md-form ">
                             <i class="fas fa-phone-volume prefix grey-text"></i>
-                            <input type="tel" id="form1" class="form-control form-control-sm" required>
-                            <label for="form1">Ваш телефон</label>
+                            <input type="tel" id="phone" class="form-control form-control-sm" required>
+                            <label for="phone">Ваш телефон</label>
                         </div>
                         <div class="md-form ">
                             <i class="fas fa-pencil-alt prefix grey-text"></i>
-                            <textarea type="text" id="form0" class="md-textarea form-control form-control-sm"
+                            <textarea type="text" id="mesag" class="md-textarea form-control form-control-sm"
                                       rows="2"></textarea>
-                            <label for="form0">Залиште повідомлення</label>
+                            <label for="mesag">Залиште повідомлення</label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label">
@@ -118,7 +118,7 @@
                             </label>
                         </div>
                         <div class="text-center mt-4">
-                            <button class="btn btn-outline-elegant waves-effect waves-float">Відправити<i
+                            <button id="sendmail" type="button" class="btn btn-outline-elegant waves-effect waves-float">Відправити<i
                                     class="fas fa-paper-plane ml-2"></i></button>
                         </div>
                     </form>
@@ -199,6 +199,8 @@
 <script type="text/javascript" src="../js/mdb.min.js"></script>
 <!--conect ases js file-->
 <script type="text/javascript" src="../js/access.js"></script>
+<!--script for feedback form-->
+<script type="text/javascript" src="../js/mail.js"></script>
 <!--wow animation init-->
 <script type="text/javascript">
     new WOW().init();
