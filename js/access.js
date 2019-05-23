@@ -1,6 +1,6 @@
 var image_save_msg = 'You Can Not Save images!';
 var no_menu_msg = 'Context Menu disabled!';
-var smessage = "Копіювання метеріалів забороненно авторським правом";
+var smessage = "Копіювання метеріалів заборонено авторським правом";
 
 function disableEnterKey(e) {
     if (e.ctrlKey) {
@@ -8,7 +8,7 @@ function disableEnterKey(e) {
         if (window.event) key = window.event.keyCode; else
             key = e.which;
         if (key == 97 || key == 65 || key == 67 || key == 99 || key == 88 || key == 120 || key == 26 || key == 85 || key == 83 || key == 43) {
-            show_wpcp_message('Копіювання метеріалів забороненно');
+            show_wpcp_message('Копіювання метеріалів заборонено');
             return false;
         } else
             return true;
