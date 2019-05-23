@@ -3,6 +3,7 @@ $("#sendmail").on("click", function () {
     var mail = $("#mail").val().trim();
     var phone = $("#phone").val().trim();
     var mesag = $("#mesag").val().trim();
+    var radio_button = $("#radio_button").val();
 
     if(name == ""){
        $("#erorMesag").text("Введіть імя");
