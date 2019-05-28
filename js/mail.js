@@ -33,6 +33,7 @@ $("#sendmail").on("click", function () {
             if (!data)
            alert("Повідомлення не відправлено, заповніть коректно усі поля");
             else
+                alert("Дякуємо за Ваше звернення");
                 $('#feedback').trigger("reset");
            $("#sendmail").prop("disabled", false);
         }
