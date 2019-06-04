@@ -10,7 +10,7 @@ $phone = trim(strip_tags($_POST['phone']));
 $massage = trim(strip_tags($_POST['mesag']));
 
 $subject = "=?utf-8?B?".base64_encode("Повідомлення із сайту декору.")."?=";
-$headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html; charset=utf-8\r\n";
+$headers = "From: $mail\r\nReply-to: $mail\r\nContent-type: text/html; charset=utf-8\r\n";
 
 $text = $name + '  ' + $phone + '  ' + $message;
 
