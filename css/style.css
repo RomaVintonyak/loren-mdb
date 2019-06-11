@@ -1,47 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
-*{
+
+* {
     font-family: Roboto, sans-serif;
 }
-.unic-font{
+
+.unic-font {
     font-family: Releway, sans-serif;
 }
+
 /*style for index page*/
-html, body, header, #intro{
+html, body, header, #intro {
     height: 100%;
 }
-#intro{
+
+#intro {
     background: url("../img/index/bg2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
-.top-nav-collapse{
+
+.top-nav-collapse {
     background-color: #717171;
 }
+
 @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse){
+    .navbar:not(.top-nav-collapse) {
         background: #717171;
     }
-    .padding{
+
+    .padding {
         padding: 0px 25px 0px 25px;
     }
 }
-.info-block img{
-   width: 20%;
+
+.info-block img {
+    width: 20%;
 }
-.mainBlock h4:hover{
+
+.mainBlock h4:hover {
     text-shadow: 3px 3px 3px #8f8f8f;
     transition: text-shadow 300ms linear 0ms;
     cursor: pointer;
 }
+
 /*hover text block*/
-.hower:hover{
-    transform: rotate(0deg) scale(1.1,1.1) ;
+.hower:hover {
+    transform: rotate(0deg) scale(1.1, 1.1);
     box-shadow: 1px 1px 1px #cacaca;
     z-index: 999;
     transition: transform 300ms linear 100ms,
     box-shadow 300ms linear 0ms, z-index 300ms linear 0ms;
     background: #f4f4f4;
 }
+
 /*rotate img for main block*/
 .rotate:hover {
     -webkit-transform: rotateZ(20deg);
@@ -49,6 +60,7 @@ html, body, header, #intro{
     transform: rotateZ(20deg);
     cursor: pointer;
 }
+
 /*smoke effect for main title*/
 .smoke {
     position: absolute;
@@ -58,11 +70,13 @@ html, body, header, #intro{
     cursor: pointer;
 
 }
+
 .smoke ul {
     margin: 5px;
     padding: 5px;
     display: flex;
 }
+
 .smoke ul li {
     list-style: none;
     color: #000000;
@@ -70,6 +84,7 @@ html, body, header, #intro{
     font-weight: bold;
     letter-spacing: 10px;
 }
+
 .smoke ul:hover li {
     animation: animate 2s linear forwards;
 }
@@ -90,53 +105,63 @@ html, body, header, #intro{
 .smoke ul li:nth-child(1) {
     animation-delay: 0s;
 }
+
 .smoke ul li:nth-child(2) {
     animation-delay: .4s;
 }
+
 .smoke ul li:nth-child(3) {
     animation-delay: .8s;
 }
+
 .smoke ul li:nth-child(4) {
     animation-delay: 1.2s;
 }
+
 .smoke ul li:nth-child(5) {
     animation-delay: 1.6s;
 }
+
 /*****end index page********/
 
 /*********about-us**********/
 /*******end about-us*******/
 
-
 /********our-services******/
-.card:hover{
-    -webkit-box-shadow: -1px 9px 40px -12px rgb(25,25,25);
-    -moz-box-shadow: -1px 9px 40px -12px rgb(25,25,25);
-    -box-shadow: -1px 9px 40px -12px rgb(25,25,25);
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgb(25, 25, 25);
+    -moz-box-shadow: -1px 9px 40px -12px rgb(25, 25, 25);
+    -box-shadow: -1px 9px 40px -12px rgb(25, 25, 25);
 }
-.col-lg-4{
+
+.col-lg-4 {
     padding: 1%;
 }
-.card{
+
+.card {
     height: 32em;
 }
 
-.card img{
+.card img {
     width: 100%;
     height: 285px;
 }
+
 /******end our-services*****/
 /******galery**************/
 .photo img {
     border: 4px solid #eee;
 }
+
 .photo a {
     display: block;
     position: relative;
 }
+
 .photo a:hover {
     opacity: 0.6;
 }
+
 .photo a:after {
     content: '';
     background: transparent url(../img/galery/eye-icon.png) no-repeat center;
@@ -148,9 +173,11 @@ html, body, header, #intro{
     right: 0;
     visibility: hidden;
 }
+
 .photo:hover > a:after {
     visibility: visible;
 }
+
 /********end galery*******/
 /* begin Scroll Down Button */
 button.scroll_down {
@@ -167,6 +194,7 @@ button.scroll_down {
     cursor: pointer;
     outline: none;
 }
+
 /*animations for button scrol down*/
 /*button.scroll_down:before {
     position: absolute;
@@ -219,3 +247,193 @@ button.scroll_down {
     }
 }*/
 /* end Scroll Down Button */
+/*call button*/
+.callback-bt {
+    background:#717171;
+    border:2px solid #717171;
+    border-radius:50%;
+    box-shadow:0 8px 10px rgba(113, 113, 118, 0.3);
+    cursor:pointer;
+    height:52px;
+    text-align:center;
+    width:52px;
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+    z-index:999;
+    transition:.3s;
+    -webkit-animation:hoverWave linear 1s infinite;
+    animation:hoverWave linear 1s infinite;
+}
+.callback-bt:hover {
+    z-index:1;
+    background:#fff;
+    color:transparent;
+    transition:.3s;
+}
+.callback-bt:hover i {
+    color: #717171;
+    font-size:36px;
+    transition:.3s;
+}
+.callback-bt i {
+    color:#fff;
+    font-size:24px;
+    transition:.3s;
+    line-height: 52px;
+    transition: .5s ease-in-out;
+}
+
+.callback-bt i  {
+    animation: 1200ms ease 0s normal none 1 running shake;
+    animation-iteration-count: infinite;
+    -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hoverWave {
+    0% {
+        box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 0 rgba(113, 113, 118, 0.2),0 0 0 0 rgba(113, 113, 119, 0.2)
+    }
+    40% {
+        box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 15px rgba(113, 113, 118, 0.2),0 0 0 0 rgba(119, 23, 23, 0.2)
+    }
+    80% {
+        box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 30px rgba(113, 113, 118, 0),0 0 0 26.7px rgba(113, 113, 119, 0.07)
+    }
+    100% {
+        box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 30px rgba(113, 113, 118, 0),0 0 0 40px rgba(56, 163, 253, 0)
+    }
+}@keyframes hoverWave {
+     0% {
+         box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 0 rgba(113, 113, 118, 0.2),0 0 0 0 rgba(113, 113, 119, 0.2)
+     }
+     40% {
+         box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 15px rgba(113, 113, 118, 0.2),0 0 0 0 rgba(113, 113, 119, 0.2)
+     }
+     80% {
+         box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 30px rgba(113, 113, 118, 0),0 0 0 26.7px rgba(113, 113, 119, 0.07)
+     }
+     100% {
+         box-shadow:0 8px 10px rgba(113, 113, 113, 0.3),0 0 0 30px rgba(113, 113, 118, 0),0 0 0 40px rgba(113, 113, 119, 0)
+     }
+ }
+
+/* animations icon */
+
+@keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+    10% {
+        transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+    }
+    20% {
+        transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+    }
+    30% {
+        transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+    }
+    40% {
+        transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+    }
+    50% {
+        transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+    }
+    60% {
+        transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+    70% {
+        transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+    }
+    80% {
+        transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+    }
+    90% {
+        transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+    10% {
+        transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+    }
+    20% {
+        transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+    }
+    30% {
+        transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+    }
+    40% {
+        transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+    }
+    50% {
+        transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+    }
+    60% {
+        transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+    70% {
+        transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+    }
+    80% {
+        transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+    }
+    90% {
+        transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+/* end call button */
