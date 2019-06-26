@@ -37,7 +37,7 @@ html, body, header, #intro {
     width: 20%;
 }
 
-.mainBlock h4:hover {
+.mainBlock h4:hover{
     text-shadow: 3px 3px 3px #8f8f8f;
     transition: text-shadow 300ms linear 0ms;
     cursor: pointer;
@@ -123,9 +123,6 @@ html, body, header, #intro {
 }
 
 /*****end index page********/
-
-/*********about-us**********/
-/*******end about-us*******/
 
 /********our-services******/
 .card:hover {
