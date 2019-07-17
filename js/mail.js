@@ -5,16 +5,16 @@ $("#sendmail").on("click", function () {
     var mesag = $("#mesag").val().trim();
     var radio_button = $("#radio_button").val();
 
-    if(name == ""){
-       $("#erorMesag").text("Введіть імя");
-       return false;
-    }else if (mail == ""){
+    if (name == "") {
+        $("#erorMesag").text("Введіть імя");
+        return false;
+    } else if (mail == "") {
         $("#erorMesag").text("Введіть email");
         return false;
-    }else if (phone == ""){
+    } else if (phone == "") {
         $("#erorMesag").text("Введіть телефон");
         return false;
-    }else if(mesag.length < 5){
+    } else if (mesag.length < 5) {
         $("#erorMesag").text("Напишіть повідомлення");
         return false;
     }
@@ -27,15 +27,15 @@ $("#sendmail").on("click", function () {
         data: {'name': name, 'mail': mail, 'phone': phone, 'mesag': mesag},
         dataType: 'html',
         beforeSend: function () {
-           $("#sendmail").prop("disabled", true);
+            $("#sendmail").prop("disabled", true);
         },
         success: function (data) {
             if (!data)
-           alert("Повідомлення не відправлено, заповніть коректно усі поля");
+                alert("Повідомлення не відправлено, заповніть коректно усі поля");
             else
                 alert("Дякуємо за Ваше звернення");
-                $('#feedback').trigger("reset");
-           $("#sendmail").prop("disabled", false);
+            $('#feedback').trigger("reset");
+            $("#sendmail").prop("disabled", false);
         }
     });
 

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="11a533b0-fd38-4b01-a562-a5bfb308cce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adout-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/adout-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/access.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/access.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/our-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/our-services.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +33,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1448">
+              <caret line="320" column="9" lean-forward="true" selection-start-line="320" selection-start-column="9" selection-end-line="320" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="our-services.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/our-services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="147" column="71" lean-forward="true" selection-start-line="147" selection-start-column="71" selection-end-line="147" selection-end-column="71" />
+            <state relative-caret-position="54">
+              <caret line="90" column="56" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
               </folding>
@@ -68,14 +100,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/access.css" />
         <option value="$PROJECT_DIR$/scss/test.scss" />
-        <option value="$PROJECT_DIR$/js/access.js" />
-        <option value="$PROJECT_DIR$/js/mail.js" />
-        <option value="$PROJECT_DIR$/ajax/mail.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/src/galery.html" />
         <option value="$PROJECT_DIR$/src/contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/adout-us.html" />
+        <option value="$PROJECT_DIR$/js/access.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/ajax/mail.php" />
+        <option value="$PROJECT_DIR$/js/mail.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/our-services.html" />
       </list>
     </option>
@@ -106,9 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,12 +284,25 @@
       <workItem from="1559645876224" duration="1813000" />
       <workItem from="1560242105329" duration="19389000" />
       <workItem from="1561568253260" duration="5426000" />
-      <workItem from="1561640037022" duration="3771000" />
+      <workItem from="1561640037022" duration="4427000" />
+      <workItem from="1561711011959" duration="70000" />
+      <workItem from="1561711203911" duration="116000" />
+      <workItem from="1561825767969" duration="1581000" />
+      <workItem from="1562086749829" duration="72000" />
+      <workItem from="1562257734609" duration="120000" />
+      <workItem from="1562258155031" duration="25000" />
+      <workItem from="1562311074603" duration="669000" />
+      <workItem from="1562489321792" duration="816000" />
+      <workItem from="1562492678331" duration="1621000" />
+      <workItem from="1562572176151" duration="735000" />
+      <workItem from="1562703755261" duration="1202000" />
+      <workItem from="1562791228601" duration="2023000" />
+      <workItem from="1563382062168" duration="1478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159280000" />
+    <option name="totallyTimeSpent" value="170464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,14 +325,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.29213482" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.29213482" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3130016" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3130016" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
-      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32905295" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="7" />
@@ -347,27 +392,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5134">
-          <caret line="302" column="9" lean-forward="true" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5134">
-          <caret line="302" column="9" lean-forward="true" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -502,20 +526,10 @@
     <entry file="file://$PROJECT_DIR$/img/galery/pz/small/1.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lightbox-plus-jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/access.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-796">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -545,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/test.scss" />
-    <entry file="file://$PROJECT_DIR$/js/access.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/free/_cards.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-55" />
@@ -569,28 +576,8 @@
     <entry file="file://$PROJECT_DIR$/img/galery/foto/small/6.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mdb.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mdb_loren.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mail.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="5" selection-start-line="21" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/galery.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,29 +593,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3825">
-          <caret line="138" column="55" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adout-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/access.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mdb.lite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mdb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="5837" selection-start-line="5837" selection-end-line="5837" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lightbox-plus-jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9231" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lightbox.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2989">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/access.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="138" column="47" lean-forward="true" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="134" column="97" selection-start-line="134" selection-start-column="97" selection-end-line="134" selection-end-column="97" />
+        <state relative-caret-position="1448">
+          <caret line="320" column="9" lean-forward="true" selection-start-line="320" selection-start-column="9" selection-end-line="320" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -636,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/our-services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="147" column="71" lean-forward="true" selection-start-line="147" selection-start-column="71" selection-end-line="147" selection-end-column="71" />
+        <state relative-caret-position="54">
+          <caret line="90" column="56" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
